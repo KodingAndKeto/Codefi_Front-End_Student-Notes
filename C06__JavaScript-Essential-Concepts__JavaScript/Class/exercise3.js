@@ -5,9 +5,16 @@
 
 // console.log(sum)
 
-let initialValue = 0
-let sum = ([[1,2],[1,1],[2,3]]).reduce(function (x1, y1){
-    return x1 * y1.x
-}, initialValue)
+// let initialValue = 0
+// let sum = ([[1,2],[1,1],[2,3]]).reduce(function (x1, y1){
+//     return x1 * y1.x
+// }, initialValue)
 
-console.log(sum)
+// console.log(sum)
+
+let sum = 
+
+function mathFunc(a,b,c,d,e,f) {
+    return a*b + c*d + e*f; 
+}
+console.log(sum);
