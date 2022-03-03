@@ -12,9 +12,20 @@
 
 // console.log(sum)
 
-let sum = 
+//FUNCTION DECLARATION 
+function getSomeOfProducts(nestedArr){
+    const firstProduct = nestedArr[0][0] * nestedArr[0][1]; 
+    const secondProduct = nestedArr[1][0] * nestedArr [1][1];
+    const thirdProduct = nestedArr[2][0] * nestedArr[2][1];
 
-function mathFunc(a,b,c,d,e,f) {
-    return a*b + c*d + e*f; 
+    return firstProduct + secondProduct + thirdProduct; 
+
+
+
 }
-console.log(sum);
+
+//FUNCTION CALL
+
+const myProduct = getSomeOfProducts([[1,2],[1,1],[2,3]])
+
+console.log("myProduct:", myProduct);
