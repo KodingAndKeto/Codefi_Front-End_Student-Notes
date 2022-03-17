@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing Colors</title>
+</head>
+<body>
+    <section class="container">
+        <h1>Hello World!</h1>
+        <h2 class="heading-two">Welcome to the Codefi Bootcamp!</h2>
+
+        <button onclick="updateColors()" class="btn-primary">
+            Click Me to update the background!
+        </button>
+    </section>
+    
+    
+</body>
+<script>
+    const headingOne = document.querySelector("h1");
+    const bodyEl = document.querySelector("body");
+    
+    function updateColors(){
+        bodyEl.style.backgroundColor = "#0c4a6e";
+        headingOne.style.color = "#f0f9ff";
+    }
+</script>
+</html>
